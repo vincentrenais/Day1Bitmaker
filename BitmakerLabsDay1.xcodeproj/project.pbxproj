@@ -14,6 +14,7 @@
 		B7D198571AD3106B00D246E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D198561AD3106B00D246E7 /* Images.xcassets */; };
 		B7D1985A1AD3106B00D246E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D198581AD3106B00D246E7 /* LaunchScreen.xib */; };
 		B7D198661AD3106B00D246E7 /* BitmakerLabsDay1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D198651AD3106B00D246E7 /* BitmakerLabsDay1Tests.m */; };
+		B7D198711AD31A3800D246E7 /* Feature.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D198701AD31A3800D246E7 /* Feature.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		B7D1985F1AD3106B00D246E7 /* BitmakerLabsDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakerLabsDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B7D198641AD3106B00D246E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B7D198651AD3106B00D246E7 /* BitmakerLabsDay1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitmakerLabsDay1Tests.m; sourceTree = "<group>"; };
+		B7D1986F1AD31A3800D246E7 /* Feature.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feature.h; sourceTree = "<group>"; };
+		B7D198701AD31A3800D246E7 /* Feature.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feature.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +66,7 @@
 		B7D1983D1AD3106B00D246E7 = {
 			isa = PBXGroup;
 			children = (
+				B7D198721AD31A6300D246E7 /* Model */,
 				B7D198481AD3106B00D246E7 /* BitmakerLabsDay1 */,
 				B7D198621AD3106B00D246E7 /* BitmakerLabsDay1Tests */,
 				B7D198471AD3106B00D246E7 /* Products */,
@@ -117,6 +121,16 @@
 				B7D198641AD3106B00D246E7 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7D198721AD31A6300D246E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1986F1AD31A3800D246E7 /* Feature.h */,
+				B7D198701AD31A3800D246E7 /* Feature.m */,
+			);
+			name = Model;
+			path = BitmakerLabsDay1;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7D198711AD31A3800D246E7 /* Feature.m in Sources */,
 				B7D198521AD3106B00D246E7 /* ViewController.m in Sources */,
 				B7D1984F1AD3106B00D246E7 /* AppDelegate.m in Sources */,
 				B7D1984C1AD3106B00D246E7 /* main.m in Sources */,
