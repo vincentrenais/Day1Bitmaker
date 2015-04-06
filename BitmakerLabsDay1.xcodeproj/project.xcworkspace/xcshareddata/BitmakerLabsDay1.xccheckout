@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>DD4EF4A6-5550-4B50-A4F7-A71103B4274D</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BitmakerLabsDay1</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>EBAA52E3A6EBA128FA1C09C3A4D261B29C32E206</key>
+		<string>github.com:vincentrenais/Day1Bitmaker.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BitmakerLabsDay1.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>EBAA52E3A6EBA128FA1C09C3A4D261B29C32E206</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:vincentrenais/Day1Bitmaker.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>EBAA52E3A6EBA128FA1C09C3A4D261B29C32E206</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>EBAA52E3A6EBA128FA1C09C3A4D261B29C32E206</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BitmakerLabsDay1</string>
+		</dict>
+	</array>
+</dict>
+</plist>
