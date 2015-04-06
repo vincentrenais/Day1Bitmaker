@@ -1,0 +1,427 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B7D1984C1AD3106B00D246E7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1984B1AD3106B00D246E7 /* main.m */; };
+		B7D1984F1AD3106B00D246E7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D1984E1AD3106B00D246E7 /* AppDelegate.m */; };
+		B7D198521AD3106B00D246E7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D198511AD3106B00D246E7 /* ViewController.m */; };
+		B7D198551AD3106B00D246E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7D198531AD3106B00D246E7 /* Main.storyboard */; };
+		B7D198571AD3106B00D246E7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7D198561AD3106B00D246E7 /* Images.xcassets */; };
+		B7D1985A1AD3106B00D246E7 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7D198581AD3106B00D246E7 /* LaunchScreen.xib */; };
+		B7D198661AD3106B00D246E7 /* BitmakerLabsDay1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B7D198651AD3106B00D246E7 /* BitmakerLabsDay1Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7D198601AD3106B00D246E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7D1983E1AD3106B00D246E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7D198451AD3106B00D246E7;
+			remoteInfo = BitmakerLabsDay1;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B7D198461AD3106B00D246E7 /* BitmakerLabsDay1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BitmakerLabsDay1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D1984A1AD3106B00D246E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D1984B1AD3106B00D246E7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7D1984D1AD3106B00D246E7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B7D1984E1AD3106B00D246E7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B7D198501AD3106B00D246E7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B7D198511AD3106B00D246E7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B7D198541AD3106B00D246E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7D198561AD3106B00D246E7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B7D198591AD3106B00D246E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B7D1985F1AD3106B00D246E7 /* BitmakerLabsDay1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BitmakerLabsDay1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7D198641AD3106B00D246E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7D198651AD3106B00D246E7 /* BitmakerLabsDay1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BitmakerLabsDay1Tests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7D198431AD3106B00D246E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1985C1AD3106B00D246E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7D1983D1AD3106B00D246E7 = {
+			isa = PBXGroup;
+			children = (
+				B7D198481AD3106B00D246E7 /* BitmakerLabsDay1 */,
+				B7D198621AD3106B00D246E7 /* BitmakerLabsDay1Tests */,
+				B7D198471AD3106B00D246E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B7D198471AD3106B00D246E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B7D198461AD3106B00D246E7 /* BitmakerLabsDay1.app */,
+				B7D1985F1AD3106B00D246E7 /* BitmakerLabsDay1Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B7D198481AD3106B00D246E7 /* BitmakerLabsDay1 */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1984D1AD3106B00D246E7 /* AppDelegate.h */,
+				B7D1984E1AD3106B00D246E7 /* AppDelegate.m */,
+				B7D198501AD3106B00D246E7 /* ViewController.h */,
+				B7D198511AD3106B00D246E7 /* ViewController.m */,
+				B7D198531AD3106B00D246E7 /* Main.storyboard */,
+				B7D198561AD3106B00D246E7 /* Images.xcassets */,
+				B7D198581AD3106B00D246E7 /* LaunchScreen.xib */,
+				B7D198491AD3106B00D246E7 /* Supporting Files */,
+			);
+			path = BitmakerLabsDay1;
+			sourceTree = "<group>";
+		};
+		B7D198491AD3106B00D246E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D1984A1AD3106B00D246E7 /* Info.plist */,
+				B7D1984B1AD3106B00D246E7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B7D198621AD3106B00D246E7 /* BitmakerLabsDay1Tests */ = {
+			isa = PBXGroup;
+			children = (
+				B7D198651AD3106B00D246E7 /* BitmakerLabsDay1Tests.m */,
+				B7D198631AD3106B00D246E7 /* Supporting Files */,
+			);
+			path = BitmakerLabsDay1Tests;
+			sourceTree = "<group>";
+		};
+		B7D198631AD3106B00D246E7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B7D198641AD3106B00D246E7 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B7D198451AD3106B00D246E7 /* BitmakerLabsDay1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D198691AD3106B00D246E7 /* Build configuration list for PBXNativeTarget "BitmakerLabsDay1" */;
+			buildPhases = (
+				B7D198421AD3106B00D246E7 /* Sources */,
+				B7D198431AD3106B00D246E7 /* Frameworks */,
+				B7D198441AD3106B00D246E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BitmakerLabsDay1;
+			productName = BitmakerLabsDay1;
+			productReference = B7D198461AD3106B00D246E7 /* BitmakerLabsDay1.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7D1985E1AD3106B00D246E7 /* BitmakerLabsDay1Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7D1986C1AD3106B00D246E7 /* Build configuration list for PBXNativeTarget "BitmakerLabsDay1Tests" */;
+			buildPhases = (
+				B7D1985B1AD3106B00D246E7 /* Sources */,
+				B7D1985C1AD3106B00D246E7 /* Frameworks */,
+				B7D1985D1AD3106B00D246E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7D198611AD3106B00D246E7 /* PBXTargetDependency */,
+			);
+			name = BitmakerLabsDay1Tests;
+			productName = BitmakerLabsDay1Tests;
+			productReference = B7D1985F1AD3106B00D246E7 /* BitmakerLabsDay1Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7D1983E1AD3106B00D246E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Vincent Renais";
+				TargetAttributes = {
+					B7D198451AD3106B00D246E7 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B7D1985E1AD3106B00D246E7 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B7D198451AD3106B00D246E7;
+					};
+				};
+			};
+			buildConfigurationList = B7D198411AD3106B00D246E7 /* Build configuration list for PBXProject "BitmakerLabsDay1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7D1983D1AD3106B00D246E7;
+			productRefGroup = B7D198471AD3106B00D246E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B7D198451AD3106B00D246E7 /* BitmakerLabsDay1 */,
+				B7D1985E1AD3106B00D246E7 /* BitmakerLabsDay1Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7D198441AD3106B00D246E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D198551AD3106B00D246E7 /* Main.storyboard in Resources */,
+				B7D1985A1AD3106B00D246E7 /* LaunchScreen.xib in Resources */,
+				B7D198571AD3106B00D246E7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1985D1AD3106B00D246E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7D198421AD3106B00D246E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D198521AD3106B00D246E7 /* ViewController.m in Sources */,
+				B7D1984F1AD3106B00D246E7 /* AppDelegate.m in Sources */,
+				B7D1984C1AD3106B00D246E7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7D1985B1AD3106B00D246E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7D198661AD3106B00D246E7 /* BitmakerLabsDay1Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7D198611AD3106B00D246E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7D198451AD3106B00D246E7 /* BitmakerLabsDay1 */;
+			targetProxy = B7D198601AD3106B00D246E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7D198531AD3106B00D246E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D198541AD3106B00D246E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7D198581AD3106B00D246E7 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7D198591AD3106B00D246E7 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7D198671AD3106B00D246E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B7D198681AD3106B00D246E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7D1986A1AD3106B00D246E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitmakerLabsDay1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B7D1986B1AD3106B00D246E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BitmakerLabsDay1/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B7D1986D1AD3106B00D246E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitmakerLabsDay1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmakerLabsDay1.app/BitmakerLabsDay1";
+			};
+			name = Debug;
+		};
+		B7D1986E1AD3106B00D246E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = BitmakerLabsDay1Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BitmakerLabsDay1.app/BitmakerLabsDay1";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7D198411AD3106B00D246E7 /* Build configuration list for PBXProject "BitmakerLabsDay1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D198671AD3106B00D246E7 /* Debug */,
+				B7D198681AD3106B00D246E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7D198691AD3106B00D246E7 /* Build configuration list for PBXNativeTarget "BitmakerLabsDay1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D1986A1AD3106B00D246E7 /* Debug */,
+				B7D1986B1AD3106B00D246E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B7D1986C1AD3106B00D246E7 /* Build configuration list for PBXNativeTarget "BitmakerLabsDay1Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7D1986D1AD3106B00D246E7 /* Debug */,
+				B7D1986E1AD3106B00D246E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7D1983E1AD3106B00D246E7 /* Project object */;
+}
